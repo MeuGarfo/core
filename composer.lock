@@ -1,0 +1,564 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "898252f19725bcbb2439acdbda07f6ee",
+    "packages": [
+        {
+            "name": "basic/auth",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/auth.git",
+                "reference": "b8fdc12ee30c01b247cc45f447e8405775d64d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/auth/zipball/b8fdc12ee30c01b247cc45f447e8405775d64d4c",
+                "reference": "b8fdc12ee30c01b247cc45f447e8405775d64d4c",
+                "shasum": ""
+            },
+            "require": {
+                "catfan/medoo": "v1.4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de autenticação",
+            "time": "2017-10-09T23:02:40+00:00"
+        },
+        {
+            "name": "basic/db",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/db.git",
+                "reference": "138bce1ec32cf971a6ede572f4f4ff772816cfa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/db/zipball/138bce1ec32cf971a6ede572f4f4ff772816cfa2",
+                "reference": "138bce1ec32cf971a6ede572f4f4ff772816cfa2",
+                "shasum": ""
+            },
+            "require": {
+                "catfan/medoo": "v1.4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema CRUD básico",
+            "time": "2017-10-09T23:02:44+00:00"
+        },
+        {
+            "name": "basic/download",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/download.git",
+                "reference": "83d02adab0484dcea7e416fce52cc909a504c81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/download/zipball/83d02adab0484dcea7e416fce52cc909a504c81e",
+                "reference": "83d02adab0484dcea7e416fce52cc909a504c81e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de download",
+            "time": "2017-10-06T22:35:47+00:00"
+        },
+        {
+            "name": "basic/image",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/image.git",
+                "reference": "a39b74ce8ddf66967636611f144619e70f7bb004"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/image/zipball/a39b74ce8ddf66967636611f144619e70f7bb004",
+                "reference": "a39b74ce8ddf66967636611f144619e70f7bb004",
+                "shasum": ""
+            },
+            "require": {
+                "claviska/simpleimage": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de manipulação de imagens",
+            "time": "2017-10-04T20:03:28+00:00"
+        },
+        {
+            "name": "basic/mail",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/mail.git",
+                "reference": "09caa8bc9006198e92f7cf1e8bec9ebc7e952c57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/mail/zipball/09caa8bc9006198e92f7cf1e8bec9ebc7e952c57",
+                "reference": "09caa8bc9006198e92f7cf1e8bec9ebc7e952c57",
+                "shasum": ""
+            },
+            "require": {
+                "phpmailer/phpmailer": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de envio de email",
+            "time": "2017-10-05T12:30:33+00:00"
+        },
+        {
+            "name": "basic/migration",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/migration.git",
+                "reference": "41f9350f7ea903d35a51a7464303be0af76e328b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/migration/zipball/41f9350f7ea903d35a51a7464303be0af76e328b",
+                "reference": "41f9350f7ea903d35a51a7464303be0af76e328b",
+                "shasum": ""
+            },
+            "require": {
+                "catfan/medoo": "v1.4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de migration",
+            "time": "2017-10-09T23:02:51+00:00"
+        },
+        {
+            "name": "basic/sheet",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/sheet.git",
+                "reference": "1181482ec56671cef79a08ddbdaa2aef22c7aca7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/1181482ec56671cef79a08ddbdaa2aef22c7aca7",
+                "reference": "1181482ec56671cef79a08ddbdaa2aef22c7aca7",
+                "shasum": ""
+            },
+            "require": {
+                "box/spout": "^2.8@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico para manipulação de planilhas",
+            "time": "2017-10-07T23:04:47+00:00"
+        },
+        {
+            "name": "basic/upload",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/upload.git",
+                "reference": "5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/upload/zipball/5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71",
+                "reference": "5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema básico de upload",
+            "time": "2017-09-30T20:23:57+00:00"
+        },
+        {
+            "name": "basic/view",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aicoutos/view.git",
+                "reference": "58c4cfef222f40ed7cd4d5dfbb7001e699ad253f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aicoutos/view/zipball/58c4cfef222f40ed7cd4d5dfbb7001e699ad253f",
+                "reference": "58c4cfef222f40ed7cd4d5dfbb7001e699ad253f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basic\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sistema de view básico ",
+            "time": "2017-09-29T19:29:22+00:00"
+        },
+        {
+            "name": "box/spout",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/box/spout.git",
+                "reference": "3681a3421a868ab9a65da156c554f756541f452b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/box/spout/zipball/3681a3421a868ab9a65da156c554f756541f452b",
+                "reference": "3681a3421a868ab9a65da156c554f756541f452b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.0"
+            },
+            "suggest": {
+                "ext-iconv": "To handle non UTF-8 CSV files (if \"php-intl\" is not already installed or is too limited)",
+                "ext-intl": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Box\\Spout\\": "src/Spout"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Loison",
+                    "email": "adrien@box.com"
+                }
+            ],
+            "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
+            "homepage": "https://www.github.com/box/spout",
+            "keywords": [
+                "OOXML",
+                "csv",
+                "excel",
+                "memory",
+                "odf",
+                "ods",
+                "office",
+                "open",
+                "php",
+                "read",
+                "scale",
+                "spreadsheet",
+                "stream",
+                "write",
+                "xlsx"
+            ],
+            "time": "2017-09-25 19:44:35"
+        },
+        {
+            "name": "catfan/medoo",
+            "version": "v1.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "8ee8ae1c4df0fee3822a01333eab88893e548fcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/8ee8ae1c4df0fee3822a01333eab88893e548fcc",
+                "reference": "8ee8ae1c4df0fee3822a01333eab88893e548fcc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on Windows platform"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The lightest PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2017-06-24T14:43:07+00:00"
+        },
+        {
+            "name": "claviska/simpleimage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/claviska/SimpleImage.git",
+                "reference": "31ba5b8358e1663a2813e2ada7242fa8d97a96dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/31ba5b8358e1663a2813e2ada7242fa8d97a96dc",
+                "reference": "31ba5b8358e1663a2813e2ada7242fa8d97a96dc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "league/color-extractor": "0.3.*",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "claviska": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cory LaViska",
+                    "homepage": "http://www.abeautifulsite.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP class that makes working with images as simple as possible.",
+            "time": "2017-09-12 09:03:56"
+        },
+        {
+            "name": "league/color-extractor",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/color-extractor.git",
+                "reference": "837086ec60f50c84c611c613963e4ad2e2aec806"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/color-extractor/zipball/837086ec60f50c84c611c613963e4ad2e2aec806",
+                "reference": "837086ec60f50c84c611c613963e4ad2e2aec806",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.4.0"
+            },
+            "replace": {
+                "matthecat/colorextractor": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2",
+                "phpunit/phpunit": "~5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathieu Lechat",
+                    "email": "math.lechat@gmail.com",
+                    "homepage": "http://matthecat.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Extract colors from an image as a human would do.",
+            "homepage": "https://github.com/thephpleague/color-extractor",
+            "keywords": [
+                "color",
+                "extract",
+                "human",
+                "image",
+                "palette"
+            ],
+            "time": "2016-12-15T09:30:02+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "c13513418de049c2e05b689bc0a1533cbca8f195"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c13513418de049c2e05b689bc0a1533cbca8f195",
+                "reference": "c13513418de049c2e05b689bc0a1533cbca8f195",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "1.2.*",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7",
+                "zendframework/zend-eventmanager": "3.0.*",
+                "zendframework/zend-i18n": "2.7.3",
+                "zendframework/zend-serializer": "2.7.*"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2017-10-09 21:12:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
