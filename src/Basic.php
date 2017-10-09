@@ -11,7 +11,7 @@ use Basic\Sheet;
 use Basic\Upload;
 use Basic\View;
 
-class Core{
+class Basic{
     var $db_cfg;
     var $view;
     function __construct($cfg=null){
