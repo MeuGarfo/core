@@ -1,5 +1,5 @@
 <?php
-namespace Basic;
+namespace Core;
 
 use Basic\Auth;
 use Basic\DB;
@@ -11,7 +11,7 @@ use Basic\Sheet;
 use Basic\Upload;
 use Basic\View;
 
-class Basic{
+class Core{
     var $db_cfg;
     var $view;
     function __construct($cfg=null){
