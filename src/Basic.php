@@ -126,8 +126,8 @@ class Basic{
     function signin(){
         return $this->auth()->signin();
     }
-    function signup(){
-        return $this->auth()->signup();
+    function signup($user=false){
+        return $this->auth()->signup($user);
     }
     function trucate_all(){
         return $this->migration()->truncate_all();
