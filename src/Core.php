@@ -1,5 +1,5 @@
 <?php
-namespace Core;
+namespace Basic;
 
 use Basic\Auth;
 use Basic\DB;
