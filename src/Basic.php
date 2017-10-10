@@ -94,6 +94,9 @@ class Basic{
     function mail(){
         return new Mail($this->mail_cfg);
     }
+    function method(){
+        return @$_SERVER['REQUEST_METHOD'];
+    }
     function migrate_all(){
         return $this->migration()->migrate_all();
     }
