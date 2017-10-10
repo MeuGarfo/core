@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "06da622c5bf22f3c140178c9a7dd53f5",
+    "content-hash": "87de3efeaeefc4a4f90c58f7ea5ef61e",
     "packages": [
         {
             "name": "basic/auth",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/auth.git",
-                "reference": "d1804ededf1ff853e65f01773a5e4ef3493029b6"
+                "reference": "24e975999f0bd45b1d0525749b242557660ce7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/auth/zipball/d1804ededf1ff853e65f01773a5e4ef3493029b6",
-                "reference": "d1804ededf1ff853e65f01773a5e4ef3493029b6",
+                "url": "https://api.github.com/repos/aicoutos/auth/zipball/24e975999f0bd45b1d0525749b242557660ce7e1",
+                "reference": "24e975999f0bd45b1d0525749b242557660ce7e1",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de autenticação",
-            "time": "2017-10-10T13:53:56+00:00"
+            "time": "2017-10-10T14:04:57+00:00"
         },
         {
             "name": "basic/db",
