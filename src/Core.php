@@ -116,21 +116,31 @@ class Core{
     function redirect($url){
         header("Location: ".$url);
     }
+    function segment($key = null){
+        return $this->view->segment($key);
+    }
     function select($table,$where=null){
         return $this->db()->select($table,$where);
+    }
+    function send($to,$subject,$html,$plain=false){
+        return $this->mail()->send($to,$subject,$html,$plain);
     }
     function sheet_to_array($sheet_name){
         $obj=new Sheet();
         return $obj->to_array($sheet_name);
-    }
-    function send($to,$subject,$html,$plain=false){
-        return $this->mail()->send($to,$subject,$html,$plain);
     }
     function signin(){
         return $this->auth()->signin();
     }
     function signup($user=false){
         return $this->auth()->signup($user);
+    }
+    function slug($text,$set=true){
+        if($set){
+            return str_replace(' ', '_', $text);
+        }else{
+            return str_replace('_', ' ', $text);
+        }
     }
     function trucate_all(){
         return $this->migration()->truncate_all();
