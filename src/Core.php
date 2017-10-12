@@ -89,7 +89,7 @@ class Core{
         return $this->view->json($data);
     }
     function logout(){
-        return $this>auth()->logout();
+        return $this->auth()->logout();
     }
     function mail(){
         return new Mail($this->mail_cfg);
