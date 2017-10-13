@@ -9,7 +9,7 @@
         }
     },
     "require": {
-        "basic/auth": "0.1.6",
+        "basic/auth": "0.1.7",
         "basic/db": "1.0.0",
         "basic/download": "0.1.1",
         "basic/image": "0.1.2",
