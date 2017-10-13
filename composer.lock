@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dd9eaa49118ac01abb3dbc5c513922d",
+    "content-hash": "792ccc2da6ab69c5ec71ed2beb0e7ecc",
     "packages": [
         {
             "name": "basic/auth",
@@ -38,16 +38,16 @@
         },
         {
             "name": "basic/db",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/db.git",
-                "reference": "138bce1ec32cf971a6ede572f4f4ff772816cfa2"
+                "reference": "01c620b2e5b6e8ab885d17dd8b2c556c202548c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/db/zipball/138bce1ec32cf971a6ede572f4f4ff772816cfa2",
-                "reference": "138bce1ec32cf971a6ede572f4f4ff772816cfa2",
+                "url": "https://api.github.com/repos/aicoutos/db/zipball/01c620b2e5b6e8ab885d17dd8b2c556c202548c1",
+                "reference": "01c620b2e5b6e8ab885d17dd8b2c556c202548c1",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
                 "MIT"
             ],
             "description": "Sistema CRUD básico",
-            "time": "2017-10-09T23:02:44+00:00"
+            "time": "2017-10-13T20:07:34+00:00"
         },
         {
             "name": "basic/download",
@@ -333,7 +333,7 @@
                 "write",
                 "xlsx"
             ],
-            "time": "2017-09-25 19:44:35"
+            "time": "2017-09-25T19:44:35+00:00"
         },
         {
             "name": "catfan/medoo",
@@ -431,7 +431,7 @@
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
-            "time": "2017-09-12 09:03:56"
+            "time": "2017-09-12T09:03:56+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -550,7 +550,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-10-09 21:12:37"
+            "time": "2017-10-09T21:12:37+00:00"
         }
     ],
     "packages-dev": [],
