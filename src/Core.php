@@ -343,7 +343,7 @@ class Core
     * @param  mixed $plain
     * @return [type]
     */
-    public function send(string $toAddress, string $subject, string $html, $plain=false)
+    public function send($toAddress='', $subject='', $html='', $plain=false)
     {
         return $this->mail()->send($toAddress, $subject, $html, $plain);
     }
