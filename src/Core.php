@@ -16,7 +16,7 @@ use Basic\Upload;
 use Basic\View;
 
 /**
-* Classe core
+* Classe Core
 */
 class Core
 {
