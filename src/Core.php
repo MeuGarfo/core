@@ -301,7 +301,7 @@ class Core
     * Lê uma linha de uma tabela
     * @param  string $tableName
     * @param  array  $where
-    * @return [type]
+    * @return mixed
     */
     public function read(string $tableName, array $where)
     {
@@ -421,7 +421,7 @@ class Core
     /**
     * Retorna uma /view
     * @param  string  $name
-    * @param  mixed  $data
+    * @param  mixed   $data
     * @param  boolean $print
     * @return string
     */
