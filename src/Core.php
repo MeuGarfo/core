@@ -200,14 +200,18 @@ class Core
     }
     /**
     * Redimensiona uma imagem
-    * @param  [type] $src       Arquivo de origem
-    * @param  [type] $dstFile   Arquivo de destino
-    * @param  [type] $maxWidth  Largura máxima
-    * @param  [type] $maxHeight Altura máxima
-    * @return bool              Retorna true ou false
+    * @param  string  $src       Arquivo de origem
+    * @param  string  $dstFile   Arquivo de destino
+    * @param  integer $maxWidth  Largura máxima
+    * @param  integer $maxHeight Altura máxima
+    * @return bool               Retorna true ou false
     */
-    public function imageResize($src='', $dstFile='', $maxWidth=1, $maxHeight=1):bool
-    {
+    public function imageResize(
+        string $src,
+        string $dstFile,
+        integer $maxWidth=1,
+        integer $maxHeight=1
+        ):bool {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
     /**
