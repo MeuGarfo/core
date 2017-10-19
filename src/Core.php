@@ -211,7 +211,7 @@ class Core
         string $dstFile,
         integer $maxWidth=1,
         integer $maxHeight=1
-        ):bool {
+    ):bool {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
     /**
