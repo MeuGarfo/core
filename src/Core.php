@@ -211,7 +211,7 @@ class Core
         string $dstFile,
         integer $maxWidth,
         integer $maxHeight
-    ):bool {
+        ):bool {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
     /**
@@ -337,9 +337,13 @@ class Core
     * @param  mixed $key  Parte da URL
     * @return mixed       Retorna uma ou mais partes da URL
     */
-    public function segment($key):mixed
+    public function segment($key=null):mixed
     {
-        return $this->view->segment($key);
+        if (is_null($key)) {
+            return $this->view->segment();
+        } else {
+            return $this->view->segment($key);
+        }
     }
     /**
     *  Faz uma requisição SELECT na tabela especificada
