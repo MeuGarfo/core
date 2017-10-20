@@ -17,6 +17,6 @@
         "basic/migration": "1.0.0",
         "basic/sheet": "1.0.1",
         "basic/upload": "2.0.0",
-        "basic/view": "1.0.0"
+        "basic/view": "1.0.1"
     }
 }
