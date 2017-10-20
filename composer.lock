@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeb5c92efb7ab8ecd7616b8ddbfffa28",
+    "content-hash": "8cc37a4bbb43b0a3bb0734f49058185e",
     "packages": [
         {
             "name": "basic/auth",
-            "version": "0.1.7",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/auth.git",
-                "reference": "5e02a12e1bcd22e9f21445d7bb39daafc03297e4"
+                "reference": "52cc3a8b5f1d674373baeeee3a69ddf49d53dad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/auth/zipball/5e02a12e1bcd22e9f21445d7bb39daafc03297e4",
-                "reference": "5e02a12e1bcd22e9f21445d7bb39daafc03297e4",
+                "url": "https://api.github.com/repos/aicoutos/auth/zipball/52cc3a8b5f1d674373baeeee3a69ddf49d53dad1",
+                "reference": "52cc3a8b5f1d674373baeeee3a69ddf49d53dad1",
                 "shasum": ""
             },
             "require": {
@@ -34,20 +34,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de autenticação",
-            "time": "2017-10-13T20:21:10+00:00"
+            "time": "2017-10-20T00:09:17+00:00"
         },
         {
             "name": "basic/db",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/db.git",
-                "reference": "01c620b2e5b6e8ab885d17dd8b2c556c202548c1"
+                "reference": "8f7915a74fe940fd444c4810913a5dd86d46a8b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/db/zipball/01c620b2e5b6e8ab885d17dd8b2c556c202548c1",
-                "reference": "01c620b2e5b6e8ab885d17dd8b2c556c202548c1",
+                "url": "https://api.github.com/repos/aicoutos/db/zipball/8f7915a74fe940fd444c4810913a5dd86d46a8b2",
+                "reference": "8f7915a74fe940fd444c4810913a5dd86d46a8b2",
                 "shasum": ""
             },
             "require": {
@@ -64,20 +64,20 @@
                 "MIT"
             ],
             "description": "Sistema CRUD básico",
-            "time": "2017-10-13T20:07:34+00:00"
+            "time": "2017-10-20T00:09:34+00:00"
         },
         {
             "name": "basic/download",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/download.git",
-                "reference": "83d02adab0484dcea7e416fce52cc909a504c81e"
+                "reference": "76cb94c26d5ceae810ae62043b298d8641194a86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/download/zipball/83d02adab0484dcea7e416fce52cc909a504c81e",
-                "reference": "83d02adab0484dcea7e416fce52cc909a504c81e",
+                "url": "https://api.github.com/repos/aicoutos/download/zipball/76cb94c26d5ceae810ae62043b298d8641194a86",
+                "reference": "76cb94c26d5ceae810ae62043b298d8641194a86",
                 "shasum": ""
             },
             "type": "library",
@@ -91,24 +91,24 @@
                 "MIT"
             ],
             "description": "Sistema básico de download",
-            "time": "2017-10-06T22:35:47+00:00"
+            "time": "2017-10-20T17:39:17+00:00"
         },
         {
             "name": "basic/image",
-            "version": "0.1.2",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/image.git",
-                "reference": "a39b74ce8ddf66967636611f144619e70f7bb004"
+                "reference": "8b91b21dd53b1f67535d7521188a321d59cfac19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/image/zipball/a39b74ce8ddf66967636611f144619e70f7bb004",
-                "reference": "a39b74ce8ddf66967636611f144619e70f7bb004",
+                "url": "https://api.github.com/repos/aicoutos/image/zipball/8b91b21dd53b1f67535d7521188a321d59cfac19",
+                "reference": "8b91b21dd53b1f67535d7521188a321d59cfac19",
                 "shasum": ""
             },
             "require": {
-                "claviska/simpleimage": "dev-master"
+                "claviska/simpleimage": "3.3.3"
             },
             "type": "library",
             "autoload": {
@@ -121,24 +121,24 @@
                 "MIT"
             ],
             "description": "Sistema básico de manipulação de imagens",
-            "time": "2017-10-04T20:03:28+00:00"
+            "time": "2017-10-20T18:53:18+00:00"
         },
         {
             "name": "basic/mail",
-            "version": "0.1.2",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/mail.git",
-                "reference": "09caa8bc9006198e92f7cf1e8bec9ebc7e952c57"
+                "reference": "1609a47d6063f34e303f899514af5dd05ad5f7a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/mail/zipball/09caa8bc9006198e92f7cf1e8bec9ebc7e952c57",
-                "reference": "09caa8bc9006198e92f7cf1e8bec9ebc7e952c57",
+                "url": "https://api.github.com/repos/aicoutos/mail/zipball/1609a47d6063f34e303f899514af5dd05ad5f7a8",
+                "reference": "1609a47d6063f34e303f899514af5dd05ad5f7a8",
                 "shasum": ""
             },
             "require": {
-                "phpmailer/phpmailer": "dev-master"
+                "phpmailer/phpmailer": "v6.0.1"
             },
             "type": "library",
             "autoload": {
@@ -151,20 +151,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de envio de email",
-            "time": "2017-10-05T12:30:33+00:00"
+            "time": "2017-10-20T18:52:15+00:00"
         },
         {
             "name": "basic/migration",
-            "version": "0.1.2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/migration.git",
-                "reference": "41f9350f7ea903d35a51a7464303be0af76e328b"
+                "reference": "bb61b7ddf36393407b08b528cbbddde946697814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/migration/zipball/41f9350f7ea903d35a51a7464303be0af76e328b",
-                "reference": "41f9350f7ea903d35a51a7464303be0af76e328b",
+                "url": "https://api.github.com/repos/aicoutos/migration/zipball/bb61b7ddf36393407b08b528cbbddde946697814",
+                "reference": "bb61b7ddf36393407b08b528cbbddde946697814",
                 "shasum": ""
             },
             "require": {
@@ -181,24 +181,24 @@
                 "MIT"
             ],
             "description": "Sistema básico de migration",
-            "time": "2017-10-09T23:02:51+00:00"
+            "time": "2017-10-20T18:42:19+00:00"
         },
         {
             "name": "basic/sheet",
-            "version": "0.1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/sheet.git",
-                "reference": "1181482ec56671cef79a08ddbdaa2aef22c7aca7"
+                "reference": "8f27282475c3a1e97c30666823653693fc3ea7c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/1181482ec56671cef79a08ddbdaa2aef22c7aca7",
-                "reference": "1181482ec56671cef79a08ddbdaa2aef22c7aca7",
+                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/8f27282475c3a1e97c30666823653693fc3ea7c9",
+                "reference": "8f27282475c3a1e97c30666823653693fc3ea7c9",
                 "shasum": ""
             },
             "require": {
-                "box/spout": "^2.8@dev"
+                "box/spout": "v2.7.3"
             },
             "type": "library",
             "autoload": {
@@ -211,20 +211,20 @@
                 "MIT"
             ],
             "description": "Sistema básico para manipulação de planilhas",
-            "time": "2017-10-07T23:04:47+00:00"
+            "time": "2017-10-20T18:53:26+00:00"
         },
         {
             "name": "basic/upload",
-            "version": "0.1.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/upload.git",
-                "reference": "5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71"
+                "reference": "8f22a0c28028c2f93c3216277474afb37e449821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/upload/zipball/5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71",
-                "reference": "5f1fdc012c7daf251bbfa479bcd5bf55a9f4ec71",
+                "url": "https://api.github.com/repos/aicoutos/upload/zipball/8f22a0c28028c2f93c3216277474afb37e449821",
+                "reference": "8f22a0c28028c2f93c3216277474afb37e449821",
                 "shasum": ""
             },
             "type": "library",
@@ -238,20 +238,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de upload",
-            "time": "2017-09-30T20:23:57+00:00"
+            "time": "2017-10-20T00:09:51+00:00"
         },
         {
             "name": "basic/view",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/view.git",
-                "reference": "58c4cfef222f40ed7cd4d5dfbb7001e699ad253f"
+                "reference": "f86edd86111995941e61b9ce3c993d88df6263f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/view/zipball/58c4cfef222f40ed7cd4d5dfbb7001e699ad253f",
-                "reference": "58c4cfef222f40ed7cd4d5dfbb7001e699ad253f",
+                "url": "https://api.github.com/repos/aicoutos/view/zipball/f86edd86111995941e61b9ce3c993d88df6263f4",
+                "reference": "f86edd86111995941e61b9ce3c993d88df6263f4",
                 "shasum": ""
             },
             "type": "library",
@@ -265,11 +265,11 @@
                 "MIT"
             ],
             "description": "Sistema de view básico ",
-            "time": "2017-09-29T19:29:22+00:00"
+            "time": "2017-10-20T00:10:09+00:00"
         },
         {
             "name": "box/spout",
-            "version": "dev-master",
+            "version": "v2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/box/spout.git",
@@ -396,7 +396,7 @@
         },
         {
             "name": "claviska/simpleimage",
-            "version": "dev-master",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/claviska/SimpleImage.git",
@@ -489,16 +489,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "dev-master",
+            "version": "v6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "c13513418de049c2e05b689bc0a1533cbca8f195"
+                "reference": "992392437c2e2784e0dc41446024fe411d293c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c13513418de049c2e05b689bc0a1533cbca8f195",
-                "reference": "c13513418de049c2e05b689bc0a1533cbca8f195",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/992392437c2e2784e0dc41446024fe411d293c96",
+                "reference": "992392437c2e2784e0dc41446024fe411d293c96",
                 "shasum": ""
             },
             "require": {
@@ -550,7 +550,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-10-09T21:12:37+00:00"
+            "time": "2017-09-14T16:47:12+00:00"
         }
     ],
     "packages-dev": [],
