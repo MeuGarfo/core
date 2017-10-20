@@ -209,8 +209,8 @@ class Core
     public function imageResize(
         string $src,
         string $dstFile,
-        integer $maxWidth=1,
-        integer $maxHeight=1
+        integer $maxWidth,
+        integer $maxHeight
     ):bool {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
