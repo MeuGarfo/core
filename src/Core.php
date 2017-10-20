@@ -50,7 +50,7 @@ class Core
     * @param  string $className Nome da classe App
     * @return mixed             Instância da class App ou mensagem de erro
     */
-    public function app($className=''):mixed
+    public function app($className='')
     {
         $filename=ROOT.'app/'.$className.'.php';
         if (file_exists($filename)) {
@@ -96,7 +96,7 @@ class Core
     * @param  array  $data      Dados a serem adicionado
     * @return mixed             Inteiro com o ID da linha ou false
     */
-    public function create($tableName='', $data=[]):mixed
+    public function create($tableName='', $data=[])
     {
         return $this->db()->create($tableName, $data);
     }
@@ -122,7 +122,7 @@ class Core
     * Apaga todas as tabelas do banco de dados
     * @return mixed Resposta para CLI
     */
-    public function dropAll():mixed
+    public function dropAll()
     {
         return $this->migration()->dropAll();
     }
@@ -142,7 +142,7 @@ class Core
     * @param  [type] $cookie Cookies do pedido
     * @return mixed          Resposta RAW
     */
-    public function get($url, $agent, $cookie):mixed
+    public function get($url, $agent, $cookie)
     {
         $obj=new Download();
         return $obj->get($url, $agent, $cookie);
@@ -153,7 +153,7 @@ class Core
     * @param  boolean $print Printar ou não a resposta
     * @return mixed          Retorna uma string ou uma resposta printada
     */
-    public function i18n($key='', $print=true):mixed
+    public function i18n($key='', $print=true)
     {
         return $this->view->i18n($key, $print);
     }
@@ -194,7 +194,7 @@ class Core
     * @param  string $src Nome do arquivo de origem
     * @return mixed       Retorna os dados ou false
     */
-    public function imageInfo($src=''):mixed
+    public function imageInfo($src='')
     {
         return $this->image()->info($src);
     }
@@ -238,7 +238,7 @@ class Core
     * Verifica se o usuário está autenticado
     * @return mixed Retorna os dados dele caso esteja ou retorna false
     */
-    public function isAuth():mixed
+    public function isAuth()
     {
         return $this->auth()->isAuth();
     }
@@ -247,7 +247,7 @@ class Core
     * @param  mixed $data Dados a serem convertidos
     * @return mixed       String com header HTTP setado para JSON
     */
-    public function json($data):mixed
+    public function json($data)
     {
         return $this->view->json($data);
     }
@@ -279,7 +279,7 @@ class Core
     * Migra todas as tabelas plain text de /table
     * @return mixed Resposta para CLI
     */
-    public function migrateAll():mixed
+    public function migrateAll()
     {
         return $this->migration()->migrateAll();
     }
@@ -287,7 +287,7 @@ class Core
     * Classe Migration
     * @return mixed resposta para CLI
     */
-    private function migration():mixed
+    private function migration()
     {
         return new Migration($this->dbCfg);
     }
@@ -299,7 +299,7 @@ class Core
     * @param  array  $cookie Cookies do pedido
     * @return mixed          Resposta RAW
     */
-    public function post($url='', $params=[], $agent='', $cookie=[]):mixed
+    public function post($url='', $params=[], $agent='', $cookie=[])
     {
         $obj=new Download();
         return $obj->post($url, $params, $agent, $cookie);
@@ -309,7 +309,7 @@ class Core
     * @param  string $sql Requisição em SQL
     * @return mixed       Resposta em PHP
     */
-    public function query(string $sql):mixed
+    public function query(string $sql)
     {
         return $this->db()->query($sql);
     }
@@ -319,7 +319,7 @@ class Core
     * @param  array  $where     Dados do WHERE
     * @return mixed             Dados da linha ou false
     */
-    public function read(string $tableName, array $where):mixed
+    public function read(string $tableName, array $where)
     {
         return $this->db()->read($tableName, $where);
     }
@@ -328,7 +328,7 @@ class Core
     * @param  string $url URL de destino
     * @return mixed       Header HTTP de redirecionamento
     */
-    public function redirect(string $url):mixed
+    public function redirect(string $url)
     {
         header("Location: ".$url);
     }
@@ -337,7 +337,7 @@ class Core
     * @param  mixed $key  Parte da URL
     * @return mixed       Retorna uma ou mais partes da URL
     */
-    public function segment($key=null):mixed
+    public function segment(integer $key=null):array
     {
         if (is_null($key)) {
             return $this->view->segment();
@@ -351,7 +351,7 @@ class Core
     * @param  mixed  $where     Dados WHERE
     * @return mixed             Retorna os dados ou false
     */
-    public function select(string $tableName, $where):mixed
+    public function select(string $tableName, $where)
     {
         return $this->db()->select($tableName, $where);
     }
@@ -381,7 +381,7 @@ class Core
     * Autentica o usuário baseado nas variáveis $_POST
     * @return mixed Dados do usuário ou mensagens de erro
     */
-    public function signin():mixed
+    public function signin()
     {
         return $this->auth()->signin();
     }
@@ -390,7 +390,7 @@ class Core
     * @param  boolean $user Dados do usuário
     * @return mixed         Faz o signin criando o token de autenticação
     */
-    public function signup($user=false):mixed
+    public function signup($user=false)
     {
         return $this->auth()->signup($user);
     }
@@ -412,7 +412,7 @@ class Core
     * Apaga todos os dados de todas as tabelas
     * @return mixed Resposta no modo CLI
     */
-    public function trucateAll():mixed
+    public function trucateAll()
     {
         return $this->migration()->truncateAll();
     }
@@ -445,7 +445,7 @@ class Core
     * @param  boolean $print Printar
     * @return mixed          View printada ou string contendo a view
     */
-    public function view(string $name, $data, $print=true):mixed
+    public function view(string $name, $data, $print=true)
     {
         $data['b']=$this;
         return $this->view->view($name, $data, $print);
