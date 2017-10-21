@@ -104,7 +104,7 @@ class Core
     * Classe DB
     * @return object Retorna uma instância da classe DB
     */
-    private function db():object
+    private function db()
     {
         return new DB($this->dbCfg);
     }
@@ -185,7 +185,7 @@ class Core
     * Classe Image
     * @return object Retorna uma instância da classe Image
     */
-    private function image():object
+    private function image()
     {
         return new Image();
     }
@@ -263,7 +263,7 @@ class Core
     * Classe Mail
     * @return object Retorna uma instância da classe Mail
     */
-    private function mail():object
+    private function mail()
     {
         return new Mail($this->mailCfg);
     }
