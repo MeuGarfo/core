@@ -445,7 +445,7 @@ class Core
     * @param  boolean $print Printar
     * @return mixed          View printada ou string contendo a view
     */
-    public function view(string $name, $data, $print=true)
+    public function view(string $name, $data=null, $print=true)
     {
         $data['b']=$this;
         return $this->view->view($name, $data, $print);
