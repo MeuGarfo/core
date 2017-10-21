@@ -337,7 +337,7 @@ class Core
     * @param  mixed $key  Parte da URL
     * @return mixed       Retorna uma ou mais partes da URL
     */
-    public function segment(integer $key=null):array
+    public function segment(integer $key=null)
     {
         if (is_null($key)) {
             return $this->view->segment();
@@ -372,7 +372,7 @@ class Core
     * @param  string $sheetName Nome da planilha
     * @return array             Dados da planilha
     */
-    public function sheetToArray(string $sheetName):array
+    public function sheetToArray(string $sheetName)
     {
         $obj=new Sheet();
         return $obj->toArray($sheetName);
@@ -433,7 +433,7 @@ class Core
     * @param  array  $exts Lista de extensões permitidas
     * @return array        Dados do arquivo ou mensagens de erro
     */
-    public function upload(string $name, array $exts):array
+    public function upload(string $name, array $exts)
     {
         $Upload=new Upload();
         return $Upload->upload($name, $exts);
