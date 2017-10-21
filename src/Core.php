@@ -67,7 +67,7 @@ class Core
     * @param  string $sheetName Nome do arquivo com extensão
     * @return bool              Retorna true ou false
     */
-    public function arrayToSheet($sheetData=[], $sheetName=''):bool
+    public function arrayToSheet($sheetData=[], $sheetName='')
     {
         $obj=new Sheet();
         return $obj->toSheet($sheetData, $sheetName);
@@ -86,7 +86,7 @@ class Core
     * @param  array  $where     Dados WHERE
     * @return integer           Retorna um valor inteiro
     */
-    public function count($tableName='', $where=[]):integer
+    public function count($tableName='', $where=[])
     {
         return $this->db()->count($tableName, $where);
     }
@@ -114,7 +114,7 @@ class Core
     * @param  array  $where     Dados WHERE
     * @return bool              Retorna true ou false
     */
-    public function delete($tableName='', $where=[]):bool
+    public function delete($tableName='', $where=[])
     {
         return $this->db()->delete($tableName, $where);
     }
@@ -131,7 +131,7 @@ class Core
     * @param  string $phrase Frase com duas ou mais palavras
     * @return string         Primeira palavra da frase
     */
-    public function firstWord($phrase=''):string
+    public function firstWord($phrase='')
     {
         return $this->view->firstWord($phrase);
     }
@@ -163,7 +163,7 @@ class Core
     * @param  boolean $dstFile Nome do arquivo de destinho
     * @return bool             Retorna true ou false
     */
-    public function imageAutoOrient($src='', $dstFile=false):bool
+    public function imageAutoOrient($src='', $dstFile=false)
     {
         return $this->image()->autoOrient($src, $dstFile);
     }
@@ -177,7 +177,7 @@ class Core
     * @param  [type] $y2      Coordenada Y2
     * @return bool            Retorna true ou false
     */
-    public function imageCrop($src, $dstFile, $x1, $y1, $x2, $y2):bool
+    public function imageCrop($src, $dstFile, $x1, $y1, $x2, $y2)
     {
         return $this->image()->crop($src, $dstFile, $x1, $y1, $x2, $y2);
     }
@@ -211,7 +211,7 @@ class Core
         string $dstFile,
         integer $maxWidth,
         integer $maxHeight
-        ):bool {
+        ) {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
     /**
@@ -222,7 +222,7 @@ class Core
     * @param  integer $height Altura da miniatura
     * @return bool            Retorna true ou false
     */
-    public function imageThumb($srr='', $dst='', $width=1, $height=1):bool
+    public function imageThumb($srr='', $dst='', $width=1, $height=1)
     {
         return $this->image()->thumb($src, $dst, $width, $height);
     }
@@ -230,7 +230,7 @@ class Core
     * Retorna true se a conexão for via Ajax e false se não for
     * @return bool Retorna true ou false
     */
-    public function isAjax():bool
+    public function isAjax()
     {
         return $this->view->isAjax();
     }
@@ -255,7 +255,7 @@ class Core
     * Faz o logout do usuaŕio
     * @return bool Retorna true ou false
     */
-    public function logout():bool
+    public function logout()
     {
         return $this->auth()->logout();
     }
@@ -271,7 +271,7 @@ class Core
     * Retorna o método da requisição
     * @return string Retorna o méxodo da requisição web
     */
-    public function method():string
+    public function method()
     {
         return @$_SERVER['REQUEST_METHOD'];
     }
@@ -363,7 +363,7 @@ class Core
     * @param  mixed   $plain     PlainText
     * @return bool               Retorna true ou false
     */
-    public function send($toAddress='', $subject='', $html='', $plain=false):bool
+    public function send($toAddress='', $subject='', $html='', $plain=false)
     {
         return $this->mail()->send($toAddress, $subject, $html, $plain);
     }
@@ -400,7 +400,7 @@ class Core
     * @param  boolean $set  Adicionar ou remover underlines
     * @return string        Dados de saída
     */
-    public function slug(string $text, $set=true):string
+    public function slug(string $text, $set=true)
     {
         if ($set) {
             return str_replace(' ', '_', $text);
@@ -423,7 +423,7 @@ class Core
     * @param  array  $where     Dados WHERE
     * @return bool              Retorna true ou false
     */
-    public function update(string $tableName, array $data, array $where):bool
+    public function update(string $tableName, array $data, array $where)
     {
         return $this->db()->update($tableName, $data, $where);
     }
