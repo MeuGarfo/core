@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "744d602721542bf1f60ea95ab3968535",
+    "content-hash": "56df9b2eb9aa093e3f70bfd309e78dd5",
     "packages": [
         {
             "name": "basic/auth",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/auth.git",
-                "reference": "5bd91221306d92fe93dd891c7f883230279c8e89"
+                "reference": "4ebd12b46d8152eac72be9930c0624129457f4e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/auth/zipball/5bd91221306d92fe93dd891c7f883230279c8e89",
-                "reference": "5bd91221306d92fe93dd891c7f883230279c8e89",
+                "url": "https://api.github.com/repos/aicoutos/auth/zipball/4ebd12b46d8152eac72be9930c0624129457f4e0",
+                "reference": "4ebd12b46d8152eac72be9930c0624129457f4e0",
                 "shasum": ""
             },
             "require": {
@@ -34,20 +34,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de autenticação",
-            "time": "2017-10-21T02:10:27+00:00"
+            "time": "2017-10-21T16:51:16+00:00"
         },
         {
             "name": "basic/db",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/db.git",
-                "reference": "7717b8645bfcb0a93dbc2fdde0ecccbd20d8e78c"
+                "reference": "9e2153d404ca73179351071de9860a86fbbf5b4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/db/zipball/7717b8645bfcb0a93dbc2fdde0ecccbd20d8e78c",
-                "reference": "7717b8645bfcb0a93dbc2fdde0ecccbd20d8e78c",
+                "url": "https://api.github.com/repos/aicoutos/db/zipball/9e2153d404ca73179351071de9860a86fbbf5b4c",
+                "reference": "9e2153d404ca73179351071de9860a86fbbf5b4c",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
                 "MIT"
             ],
             "description": "Sistema CRUD básico",
-            "time": "2017-10-21T01:25:18+00:00"
+            "time": "2017-10-21T16:55:29+00:00"
         },
         {
             "name": "basic/download",
@@ -95,16 +95,16 @@
         },
         {
             "name": "basic/image",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/image.git",
-                "reference": "8b91b21dd53b1f67535d7521188a321d59cfac19"
+                "reference": "ba94063b0554593a12c1e1f91d59ab33ff7c9520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/image/zipball/8b91b21dd53b1f67535d7521188a321d59cfac19",
-                "reference": "8b91b21dd53b1f67535d7521188a321d59cfac19",
+                "url": "https://api.github.com/repos/aicoutos/image/zipball/ba94063b0554593a12c1e1f91d59ab33ff7c9520",
+                "reference": "ba94063b0554593a12c1e1f91d59ab33ff7c9520",
                 "shasum": ""
             },
             "require": {
@@ -121,20 +121,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de manipulação de imagens",
-            "time": "2017-10-20T18:53:18+00:00"
+            "time": "2017-10-21T17:00:28+00:00"
         },
         {
             "name": "basic/mail",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/mail.git",
-                "reference": "1609a47d6063f34e303f899514af5dd05ad5f7a8"
+                "reference": "8637875c3bab54ea965ab8104a51eb17634d36b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/mail/zipball/1609a47d6063f34e303f899514af5dd05ad5f7a8",
-                "reference": "1609a47d6063f34e303f899514af5dd05ad5f7a8",
+                "url": "https://api.github.com/repos/aicoutos/mail/zipball/8637875c3bab54ea965ab8104a51eb17634d36b9",
+                "reference": "8637875c3bab54ea965ab8104a51eb17634d36b9",
                 "shasum": ""
             },
             "require": {
@@ -151,20 +151,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de envio de email",
-            "time": "2017-10-20T18:52:15+00:00"
+            "time": "2017-10-21T17:08:45+00:00"
         },
         {
             "name": "basic/migration",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/migration.git",
-                "reference": "ec308232add2807d2d2c8db4d9f2fcf32df15775"
+                "reference": "fe3adc1af3f13994ff201813a10e1ee0c35d640a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/migration/zipball/ec308232add2807d2d2c8db4d9f2fcf32df15775",
-                "reference": "ec308232add2807d2d2c8db4d9f2fcf32df15775",
+                "url": "https://api.github.com/repos/aicoutos/migration/zipball/fe3adc1af3f13994ff201813a10e1ee0c35d640a",
+                "reference": "fe3adc1af3f13994ff201813a10e1ee0c35d640a",
                 "shasum": ""
             },
             "require": {
@@ -181,20 +181,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de migration",
-            "time": "2017-10-21T01:42:17+00:00"
+            "time": "2017-10-21T17:11:58+00:00"
         },
         {
             "name": "basic/sheet",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/sheet.git",
-                "reference": "8f27282475c3a1e97c30666823653693fc3ea7c9"
+                "reference": "1cf51d9e66b84dc585ab619a890c353d0724f262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/8f27282475c3a1e97c30666823653693fc3ea7c9",
-                "reference": "8f27282475c3a1e97c30666823653693fc3ea7c9",
+                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/1cf51d9e66b84dc585ab619a890c353d0724f262",
+                "reference": "1cf51d9e66b84dc585ab619a890c353d0724f262",
                 "shasum": ""
             },
             "require": {
@@ -211,20 +211,20 @@
                 "MIT"
             ],
             "description": "Sistema básico para manipulação de planilhas",
-            "time": "2017-10-20T18:53:26+00:00"
+            "time": "2017-10-21T17:16:16+00:00"
         },
         {
             "name": "basic/upload",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/upload.git",
-                "reference": "8f22a0c28028c2f93c3216277474afb37e449821"
+                "reference": "0d602831bb44415d35ec3970788b451d230b0b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/upload/zipball/8f22a0c28028c2f93c3216277474afb37e449821",
-                "reference": "8f22a0c28028c2f93c3216277474afb37e449821",
+                "url": "https://api.github.com/repos/aicoutos/upload/zipball/0d602831bb44415d35ec3970788b451d230b0b5c",
+                "reference": "0d602831bb44415d35ec3970788b451d230b0b5c",
                 "shasum": ""
             },
             "type": "library",
@@ -238,7 +238,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de upload",
-            "time": "2017-10-20T00:09:51+00:00"
+            "time": "2017-10-21T17:19:01+00:00"
         },
         {
             "name": "basic/view",
