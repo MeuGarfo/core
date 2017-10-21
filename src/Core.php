@@ -76,7 +76,7 @@ class Core
     * Classe Auth
     * @return object Retorna instância da classe Auth
     */
-    private function auth():object
+    private function auth()
     {
         return new Auth($this->dbCfg);
     }
