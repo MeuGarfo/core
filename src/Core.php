@@ -211,7 +211,7 @@ class Core
         string $dstFile,
         integer $maxWidth,
         integer $maxHeight
-        ) {
+    ) {
         return $this->image()->resize($src, $dstFile, $maxWidth, $maxHeight);
     }
     /**
@@ -433,10 +433,14 @@ class Core
     * @param  array  $exts Lista de extensões permitidas
     * @return array        Dados do arquivo ou mensagens de erro
     */
-    public function upload(string $name, array $exts)
+    public function upload(string $name=null, array $exts=null)
     {
         $Upload=new Upload();
-        return $Upload->upload($name, $exts);
+        if (is_null($name) && is_null($exts)) {
+            return $Upload;
+        } else {
+            return $Upload->upload($name, $exts);
+        }
     }
     /**
     * Retorna uma view

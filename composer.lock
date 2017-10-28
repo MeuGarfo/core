@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "56df9b2eb9aa093e3f70bfd309e78dd5",
+    "content-hash": "d0f4548d7d8f9648a2ced0b436626eb8",
     "packages": [
         {
             "name": "basic/auth",
@@ -215,16 +215,16 @@
         },
         {
             "name": "basic/upload",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/upload.git",
-                "reference": "0d602831bb44415d35ec3970788b451d230b0b5c"
+                "reference": "663ee9c0517437e02ed830c2e6373529855aecd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/upload/zipball/0d602831bb44415d35ec3970788b451d230b0b5c",
-                "reference": "0d602831bb44415d35ec3970788b451d230b0b5c",
+                "url": "https://api.github.com/repos/aicoutos/upload/zipball/663ee9c0517437e02ed830c2e6373529855aecd4",
+                "reference": "663ee9c0517437e02ed830c2e6373529855aecd4",
                 "shasum": ""
             },
             "type": "library",
@@ -238,7 +238,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de upload",
-            "time": "2017-10-21T17:19:01+00:00"
+            "time": "2017-10-28T19:31:31+00:00"
         },
         {
             "name": "basic/view",
