@@ -243,6 +243,19 @@ class Core
         return $this->auth()->isAuth();
     }
     /**
+     * Verifica se o domínio é .dev
+     * @return bool Retorna true caso seja .dev e false caso não seja
+     */
+    public function isDev():bool
+    {
+        $end=@end(explode('.', $_SERVER['SERVER_NAME']));
+        if ($end==='dev') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    /**
     * Converte os dados para JSON com header
     * @param  mixed $data Dados a serem convertidos
     * @return mixed       String com header HTTP setado para JSON
