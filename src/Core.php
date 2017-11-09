@@ -54,7 +54,7 @@ class Core
     {
         $filename=ROOT.'app/'.$className.'.php';
         if (file_exists($filename)) {
-            require $filename;
+            require_once $filename;
             $class='App\\'.$className;
             return new $class($this);
         } else {
