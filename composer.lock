@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0f4548d7d8f9648a2ced0b436626eb8",
+    "content-hash": "2ca0567542c581b218eefb8224a69c63",
     "packages": [
         {
             "name": "basic/auth",
@@ -38,16 +38,16 @@
         },
         {
             "name": "basic/db",
-            "version": "2.0.2",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/db.git",
-                "reference": "9e2153d404ca73179351071de9860a86fbbf5b4c"
+                "reference": "fe4cf5197a6950515efc0589387128f257845edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/db/zipball/9e2153d404ca73179351071de9860a86fbbf5b4c",
-                "reference": "9e2153d404ca73179351071de9860a86fbbf5b4c",
+                "url": "https://api.github.com/repos/aicoutos/db/zipball/fe4cf5197a6950515efc0589387128f257845edb",
+                "reference": "fe4cf5197a6950515efc0589387128f257845edb",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
                 "MIT"
             ],
             "description": "Sistema CRUD básico",
-            "time": "2017-10-21T16:55:29+00:00"
+            "time": "2017-11-09T17:40:05+00:00"
         },
         {
             "name": "basic/download",

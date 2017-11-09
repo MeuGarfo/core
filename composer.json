@@ -10,7 +10,7 @@
     },
     "require": {
         "basic/auth": "2.0.4",
-        "basic/db": "2.0.2",
+        "basic/db": "3.0.0",
         "basic/download": "1.0.0",
         "basic/image": "2.0.3",
         "basic/mail": "1.0.2",
