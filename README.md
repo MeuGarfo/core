@@ -1,2 +1,2 @@
 # core
-:key: Core do Basic
+Core do Basic
