@@ -36,16 +36,6 @@ class Core
     */
     private $view;
     /**
-    * Chamada do sistema
-    * @param array $cfg         Dados do servidor SMTP e SQL
-    */
-    public function __construct($cfg=null)
-    {
-        $this->dbCfg=@$cfg['mysql'];
-        $this->mailCfg=@$cfg['smtp'];
-        $this->view=new View();
-    }
-    /**
     * Retorna uma instância de uma classe App ou uma mensagem de erro
     * @param  string $className Nome da classe App
     * @return mixed             Instância da class App ou mensagem de erro
@@ -243,9 +233,9 @@ class Core
         return $this->auth()->isAuth();
     }
     /**
-     * Verifica se o domínio é .dev
-     * @return bool Retorna true caso seja .dev e false caso não seja
-     */
+    * Verifica se o domínio é .dev
+    * @return bool Retorna true caso seja .dev e false caso não seja
+    */
     public function isDev():bool
     {
         $end=@end(explode('.', $_SERVER['SERVER_NAME']));
@@ -344,6 +334,46 @@ class Core
     public function redirect(string $url)
     {
         header("Location: ".$url);
+    }
+    /**
+    * Inicializa o Basic
+    * @return [type] [description]
+    */
+    public function start()
+    {
+        $cfg=require_once(ROOT.'config.php');
+        $this->dbCfg=@$cfg['mysql'];
+        $this->mailCfg=@$cfg['smtp'];
+        $this->view=new View();
+        $segment=$this->segment(0);
+        if (isset($_POST['_method'])) {
+            $method=$_POST['_method'];
+        } else {
+            $method=$this->method();
+        }
+        switch ($method) {
+            case 'POST':
+            case 'CREATE':
+            $method='create';
+            break;
+            case 'PUT':
+            case 'UPDATE':
+            $method='update';
+            break;
+            default:
+            case 'DELETE':
+            $method='delete';
+            break;
+            $method='read';
+            break;
+        }
+        if ($segment[0]=='/') {
+            $this->app('Home')->$method();
+        } elseif (isset($segment[1])) {
+            $this->app($segment[0])->$method($segment[1]);
+        } else {
+            $this->app('Home')->notFound();
+        }
     }
     /**
     * Retorna os segmentos da URL
