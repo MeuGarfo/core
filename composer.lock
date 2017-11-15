@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ca0567542c581b218eefb8224a69c63",
+    "content-hash": "2195ddce58b639605c797e256a7c4881",
     "packages": [
         {
             "name": "basic/auth",
@@ -242,16 +242,16 @@
         },
         {
             "name": "basic/view",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/view.git",
-                "reference": "addcd186f71c7a85934b099dac70807bce6719c3"
+                "reference": "6220c27caea6fa723f929034daa6f89c36284f50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/view/zipball/addcd186f71c7a85934b099dac70807bce6719c3",
-                "reference": "addcd186f71c7a85934b099dac70807bce6719c3",
+                "url": "https://api.github.com/repos/aicoutos/view/zipball/6220c27caea6fa723f929034daa6f89c36284f50",
+                "reference": "6220c27caea6fa723f929034daa6f89c36284f50",
                 "shasum": ""
             },
             "type": "library",
@@ -265,7 +265,7 @@
                 "MIT"
             ],
             "description": "Sistema de view básico ",
-            "time": "2017-10-21T01:59:12+00:00"
+            "time": "2017-11-15T18:07:31+00:00"
         },
         {
             "name": "box/spout",
