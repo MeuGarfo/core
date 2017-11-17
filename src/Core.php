@@ -49,12 +49,12 @@ class Core
     * @param  string $className Nome da classe App
     * @return mixed             Instância da class App ou mensagem de erro
     */
-    public function app($className='')
+    public function controller($className='')
     {
-        $filename=ROOT.'app/'.$className.'.php';
+        $filename=ROOT.'app/controller/'.$className.'.php';
         if (file_exists($filename)) {
             require_once $filename;
-            $class='App\\'.$className;
+            $class='App\\Controller\\'.$className;
             return new $class($this);
         } else {
             die('app <b>'.$filename.'</b> not found');
@@ -381,10 +381,10 @@ class Core
         if ($app=='/') {
             $this->app('Home')->$method();
         } elseif (file_exists(ROOT.'app/'.$appName.'.php')) {
-            if(isset($segment[1])){
+            if (isset($segment[1])) {
                 $this->app($appName)->$method($segment[1]);
-            }else{
-                $this->app($appName)->$method();            
+            } else {
+                $this->app($appName)->$method();
             }
         } else {
             $this->app('Home')->notFound();

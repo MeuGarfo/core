@@ -14,7 +14,7 @@
         "basic/download": "1.0.0",
         "basic/image": "2.0.3",
         "basic/mail": "1.0.2",
-        "basic/migration": "1.0.7",
+        "basic/migration": "1.0.9",
         "basic/sheet": "1.0.2",
         "basic/upload": "2.0.3",
         "basic/view": "1.0.4"
