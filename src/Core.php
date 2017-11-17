@@ -381,7 +381,11 @@ class Core
         if ($app=='/') {
             $this->app('Home')->$method();
         } elseif (file_exists(ROOT.'app/'.$appName.'.php')) {
-            $this->app($app)->$method($segment[1]);
+            if(isset($segment[1])){
+                $this->app($appName)->$method($segment[1]);
+            }else{
+                $this->app($appName)->$method();            
+            }
         } else {
             $this->app('Home')->notFound();
         }
