@@ -57,7 +57,7 @@ class Core
             $class='App\\Controller\\'.$className;
             return new $class($this);
         } else {
-            die('app <b>'.$filename.'</b> not found');
+            die('controller <b>'.$filename.'</b> not found');
         }
     }
     /**
