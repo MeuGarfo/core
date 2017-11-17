@@ -376,10 +376,11 @@ class Core
             $method='read';
             break;
         }
-        if ($segment[0]=='/') {
+        $app=$segment[0];
+        if ($app=='/') {
             $this->app('Home')->$method();
-        } elseif (isset($segment[1])) {
-            $this->app($segment[0])->$method($segment[1]);
+        } elseif (file_exists(ROOT.'app/'.mb_substr($app, 0, -1).'.php')) {
+            $this->app($app)->$method($segment[1]);
         } else {
             $this->app('Home')->notFound();
         }
