@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "82499de9cae8c8fb354d41376f3b8acd",
+    "content-hash": "4ae5470952caea5a668d4b0e68195de1",
     "packages": [
         {
             "name": "basic/auth",
@@ -155,16 +155,16 @@
         },
         {
             "name": "basic/migration",
-            "version": "1.0.3",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/migration.git",
-                "reference": "fe3adc1af3f13994ff201813a10e1ee0c35d640a"
+                "reference": "f49b5b57597e8ad0d26d12b1bc69bbf8d4732b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/migration/zipball/fe3adc1af3f13994ff201813a10e1ee0c35d640a",
-                "reference": "fe3adc1af3f13994ff201813a10e1ee0c35d640a",
+                "url": "https://api.github.com/repos/aicoutos/migration/zipball/f49b5b57597e8ad0d26d12b1bc69bbf8d4732b28",
+                "reference": "f49b5b57597e8ad0d26d12b1bc69bbf8d4732b28",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de migration",
-            "time": "2017-10-21T17:11:58+00:00"
+            "time": "2017-11-17T12:20:33+00:00"
         },
         {
             "name": "basic/sheet",
