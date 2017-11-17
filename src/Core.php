@@ -377,9 +377,10 @@ class Core
             break;
         }
         $app=$segment[0];
+        $appName=ucfirst(mb_substr($app, 0, -1));
         if ($app=='/') {
             $this->app('Home')->$method();
-        } elseif (file_exists(ROOT.'app/'.mb_substr($app, 0, -1).'.php')) {
+        } elseif (file_exists(ROOT.'app/'.$appName.'.php')) {
             $this->app($app)->$method($segment[1]);
         } else {
             $this->app('Home')->notFound();
