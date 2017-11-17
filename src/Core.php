@@ -495,7 +495,7 @@ class Core
     public function view(string $name, $data=null, $print=true)
     {
         $data['b']=$this;
-        $name=ROOT.'app/'.$name;
+        $name=ROOT.'app/view/'.$name;
         return $this->view->view($name, $data, $print);
     }
 }
