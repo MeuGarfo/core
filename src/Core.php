@@ -376,18 +376,18 @@ class Core
             $method='read';
             break;
         }
-        $app=$segment[0];
-        $appName=ucfirst(mb_substr($app, 0, -1));
-        if ($app=='/') {
-            $this->app('Home')->$method();
-        } elseif (file_exists(ROOT.'app/'.$appName.'.php')) {
+        $controller=$segment[0];
+        $controllerName=ucfirst(mb_substr($controller, 0, -1));
+        if ($controller=='/') {
+            $this->controller('Home')->$method();
+        } elseif (file_exists(ROOT.'app/controller/'.$controllerName.'.php')) {
             if (isset($segment[1])) {
-                $this->app($appName)->$method($segment[1]);
+                $this->controller($controllerName)->$method($segment[1]);
             } else {
-                $this->app($appName)->$method();
+                $this->controller($controllerName)->$method();
             }
         } else {
-            $this->app('Home')->notFound();
+            $this->controller('Home')->notFound();
         }
     }
     /**
