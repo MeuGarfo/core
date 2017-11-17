@@ -35,6 +35,15 @@ class Core
     * @var object $view
     */
     private $view;
+
+    public function __construct($cfg=false)
+    {
+        if ($cfg) {
+            $this->dbCfg=@$cfg['mysql'];
+            $this->mailCfg=@$cfg['smtp'];
+            $this->view=new View();
+        }
+    }
     /**
     * Retorna uma instância de uma classe App ou uma mensagem de erro
     * @param  string $className Nome da classe App
@@ -341,9 +350,9 @@ class Core
     */
     public function start()
     {
-        $cfg=require_once(ROOT.'config.php');
-        $this->dbCfg=@$cfg['mysql'];
-        $this->mailCfg=@$cfg['smtp'];
+        require_once(ROOT.'config.php');
+        $this->dbCfg=@$mysql;
+        $this->mailCfg=@$smtp;
         $this->view=new View();
         $segment=$this->segment();
         if (isset($_POST['_method'])) {
