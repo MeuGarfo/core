@@ -345,7 +345,7 @@ class Core
         $this->dbCfg=@$cfg['mysql'];
         $this->mailCfg=@$cfg['smtp'];
         $this->view=new View();
-        $segment=$this->segment(0);
+        $segment=$this->segment();
         if (isset($_POST['_method'])) {
             $method=$_POST['_method'];
         } else {
