@@ -360,10 +360,10 @@ class Core
             case 'UPDATE':
             $method='update';
             break;
-            default:
             case 'DELETE':
             $method='delete';
             break;
+            default:
             $method='read';
             break;
         }
