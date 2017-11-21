@@ -30,6 +30,7 @@ class Core
         $realControllerName=$this->controllerExists($controllerName);
         if ($realControllerName) {
             require_once $realControllerName;
+            $controllerName=pathinfo($realControllerName)['filename'];
             $controllerInstance='App\\Controller\\'.$controllerName;
             return new $controllerInstance($this);
         } else {
